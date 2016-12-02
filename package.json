@@ -1,7 +1,7 @@
 {
-  "name": "gb-server",
+  "name": "gb-server-web",
   "version": "0.0.0",
-  "description": "An online node-gameboy socket stream server",
+  "description": "An online node-gameboy client",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,10 +9,8 @@
   "author": "Diego Acosta <diegonake@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.3.3",
     "express": "^4.14.0",
     "ioredis": "^2.4.0",
-    "node-gameboy": "^0.3.0",
     "socket.io": "^1.5.1"
   },
   "engines": {
@@ -20,19 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nakardo/gb-server.git"
+    "url": "git+https://github.com/nakardo/gb-server-web.git"
   },
-  "keywords": [
-    "nintendo",
-    "gameboy",
-    "handheld",
-    "emulator",
-    "game",
-    "socket",
-    "stream"
-  ],
   "bugs": {
-    "url": "https://github.com/nakardo/gb-server/issues"
+    "url": "https://github.com/nakardo/gb-server-web/issues"
   },
-  "homepage": "https://github.com/nakardo/gb-server#readme"
+  "homepage": "https://github.com/nakardo/gb-server-web#readme"
 }

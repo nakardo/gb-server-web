@@ -1,10 +1,5 @@
 FROM node:wheezy
-LABEL name "gb-server"
-
-RUN apt-get update && apt-get install -y libcairo2-dev libjpeg8-dev \
-    libpango1.0-dev libgif-dev build-essential g++ && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+LABEL name "gb-server-web"
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
